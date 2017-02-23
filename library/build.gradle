@@ -14,7 +14,10 @@
 import com.android.builder.core.BuilderConstants
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'bintray-release'
+
+group = 'com.github.mwayment-blin'
 
 android {
     compileSdkVersion project.ext.compileSdkVersion
